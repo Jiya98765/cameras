@@ -1,0 +1,150 @@
+ body{
+    background-image: url("./background.webp");
+    background-repeat:inherit;
+    
+} 
+header{
+   
+
+    background-color:black;
+    height: 85px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+
+img{
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid white;
+    border-radius: 20%;
+
+}
+video{
+    margin: 20px;
+    height: 400px;
+    width: 400px;
+    border: solid white;
+    border-radius: 20%;
+}
+video:hover{
+    transform: scale(1.1);
+}
+
+#suru{
+    display: flex;
+    justify-content: left;
+    margin: 20px;
+}
+
+
+
+#jiya{
+    display: grid;
+}
+
+ a:hover{
+    transform: scale(1.1);
+} 
+#monika{
+
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+#himi{
+    display: grid;
+}
+
+#img_last{
+    border-radius: 20%;
+}
+#img_last:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    height: 100px;
+background-color:black;
+}
+
+#ashwin{
+    
+    height: 150px;
+    /* width: 100%; */
+    background-color:black;
+    display: flex;
+    justify-content: space-evenly;
+    
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+#ashwin a{
+    
+    gap: 30px;
+}
+
+#beak{
+    height: 40px;
+    background-color:rgb(102, 119, 128);
+}
+
+@media (max-width : 660px){
+    header{
+        height: auto;
+        font-size: 30px;
+        width:auto;
+
+    }
+    img{
+        margin: 5px;
+        height: 80px;
+        width: 80px;
+        /* display: flex; */
+        justify-content: space-evenly;
+        align-items: center;
+        border: solid white;
+        border-radius: 20%;
+
+
+     }
+
+     video{
+        margin: 5px;
+        height: 80px;
+        width: 80px;
+        border: solid white;
+        border-radius: 20%;
+    }
+
+    #beak{
+        height: 30px;
+        background-color:rgb(102, 119, 128);
+        font: 10px;
+    }
+    #ashwin{
+    
+        height: 30px;
+        /* width: 100%; */
+        background-color:black;
+        /* display: grid; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        
+     
+    }
+     /* #ashwin a{
+        font-size: 20px;
+     } */
+
+    
+
+
+}
